@@ -1,3 +1,27 @@
 <resources>
-    <string name="app_name">Budget_Planner</string>
+    <string name="app_name">Budget Planner</string>
+    <!-- Others                    -->
+    <string name="ok">OK</string>
+    <string name="userData">User Data</string>
+    <!-- first_data_dialog_layout  -->
+    <string name="hintEtName">Your name</string>
+    <string name="hintEtIncome">Your monthly income</string>
+    <string name="hintEtSavings">Monthly amount of savings</string>
+
+    <!-- MainActivity              -->
+    <string name="firstTitleDialog">Type following data</string>
+    <string name="tvName">Name:</string>
+    <string name="tvIncome">Monthly income:</string>
+    <string name="tvSavings">Predicted monthly savings:</string>
+    <string name="btnShowUserDataDialog">Show User Data</string>
+        <!-- MainActivity Dialog Errors/Toast   -->
+        <string name="errorEmptyName">You have to enter your name</string>
+        <string name="errorEmptyIncome">You have to enter your income</string>
+        <string name="errorIncomeEqualZero">Your income have to be greater than zero</string>
+        <string name="errorEmptySavings">You have to enter your monthly amount of savings</string>
+        <string name="errorSavingsEqualZero">Your monthly amount of savings have to be greater than zero</string>
+        <string name="toastSavingsLessThanIncome">Attention! Your income have to be greater than savings.</string>
+
+
+
 </resources>
