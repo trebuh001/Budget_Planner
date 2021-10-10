@@ -3,9 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/hkrup/AndroidStudioProjects/Budget_Planner/app/src/main/res/layout/activity_main.xml" value="0.23846153846153847" />
+        <entry key="..\:/Users/hkrup/AndroidStudioProjects/Budget_Planner/app/src/main/res/drawable/frame.xml" value="0.264" />
+        <entry key="..\:/Users/hkrup/AndroidStudioProjects/Budget_Planner/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2537037037037037" />
+        <entry key="..\:/Users/hkrup/AndroidStudioProjects/Budget_Planner/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/hkrup/AndroidStudioProjects/Budget_Planner/app/src/main/res/layout/add_cost_data_dialog_layout.xml" value="0.264" />
         <entry key="..\:/Users/hkrup/AndroidStudioProjects/Budget_Planner/app/src/main/res/layout/dialog_with_data_layout.xml" value="0.134375" />
         <entry key="..\:/Users/hkrup/AndroidStudioProjects/Budget_Planner/app/src/main/res/layout/first_data_dialog_layout.xml" value="0.134375" />
+        <entry key="..\:/Users/hkrup/AndroidStudioProjects/Budget_Planner/app/src/main/res/layout/layout_item.xml" value="0.1203125" />
+        <entry key="..\:/Users/hkrup/AndroidStudioProjects/Budget_Planner/app/src/main/res/menu-v26/menu_details.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/hkrup/AndroidStudioProjects/Budget_Planner/app/src/main/res/menu/menu_details.xml" value="0.1" />
       </map>
     </option>
   </component>

@@ -7,9 +7,20 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="blue">#0000FF</color>
+    <!--  -->
+    <color name="green_percent">#309530</color>
 
 
-    <color name="et_color">#E0EAF0</color>
-    <color name="main_background_color">#F78A8787</color>
-    <color name="main_text_color">#FFFFFF</color>
+
+
+    <!-- dark colors -->
+    <color name="et_color_dark">#686B6D</color>
+    <color name="main_text_color_dark">#FFFFFF</color>
+    <color name="main_background_color_dark">#333131</color>
+
+    <!-- light colors -->
+    <color name="et_color_light">#DCDDDD</color>
+    <color name="main_text_color_light">#000000</color>
+    <color name="main_background_color_light">#FFFFFF</color>
 </resources>

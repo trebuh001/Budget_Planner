@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Layout of Message Dialog, contains form to insert new cost to database -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:scrollbars="vertical"
+    android:scrollbarAlwaysDrawVerticalTrack="true">
+
+
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="5dp"
+        android:autofillHints="name"
+        android:hint="@string/hintEtCostName"
+        android:inputType="text"
+        android:maxLength="40"
+        android:minHeight="48dp"
+        android:layout_marginTop="20dp"
+        android:paddingHorizontal="5dp"
+        android:textSize="20sp" />
+    <EditText
+        android:id="@+id/etAmount"
+        android:autofillHints="name"
+        android:hint="@string/hintEtCostAmount"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingHorizontal="5dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="5dp"
+        android:textSize="20sp"
+        android:maxLength="12"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvAddedData"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/tvAddedDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:textSize="15sp"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="5dp"
+        android:layout_marginHorizontal="20dp"
+        android:text="@string/tvSelectCategory"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        />
+
+        <RadioGroup
+            android:id="@+id/rgCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            >
+
+
+            <RadioButton
+
+                android:id="@+id/rbCharges"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rbCharges"
+                android:textSize="12sp"
+                android:checked="true"
+                />
+
+            <RadioButton
+                android:id="@+id/rbShopping"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rbShopping"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/rbPleasures"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rbPleasures"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/rbHobby"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rbHobby"
+                android:textSize="12sp"/>
+
+        </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="5dp"
+        android:layout_marginHorizontal="20dp"
+        android:text="@string/tvSelectPeriod"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        />
+
+         <RadioGroup
+            android:id="@+id/rgPeriod"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             android:layout_marginHorizontal="20dp">
+
+            <RadioButton
+                android:checked="true"
+                android:id="@+id/rbMonthly"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rbMonthly"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/rbQuarterly"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rbQuarterly"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/rbAnnual"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rbAnnual"
+                android:textSize="12sp"/>
+         </RadioGroup>
+</LinearLayout>
+</ScrollView>
+

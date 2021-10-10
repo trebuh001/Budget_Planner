@@ -1,27 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LEGEND OF KEYS to strings - if prefix equals:
+    btn - text of button
+    tv - text of TextView
+    hint - hint of EditText
+    toast - text of "toast message"
+    ttt - text of ToolTipText
+    rb - text of RadioButton
+
+                                                   -->
 <resources>
-    <string name="app_name">Budget Planner</string>
+    <string name="app_name">Planista Budżetu</string>
     <!-- Others                    -->
+    <string name="currency">PLN</string>
+    <string name="ordinalNumber">Lp.</string>
     <string name="ok">OK</string>
-    <string name="userData">User Data</string>
-    <!-- first_data_dialog_layout  -->
-    <string name="hintEtName">Your name</string>
-    <string name="hintEtIncome">Your monthly income</string>
-    <string name="hintEtSavings">Monthly amount of savings</string>
+    <string name="cancel">Anuluj</string>
+    <string name="userData">Dane użytkownika</string>
+    <string name="name">Nazwa:</string>
+    <string name="category">Kategoria</string>
+    <string name="period">Okres</string>
+    <string name="amount">Kwota (PLN)</string>
+    <string name="date">Data dodania</string>
+    <string name="tapToDelete">stuknij aby usunąć</string>
+    <string name="previousMonth">Poprzedni miesiąc</string>
+    <string name="nextMonth">Następny miesiąc</string>
+    <!-- add_cost_data_dialog_layout -->
+    <string name="tvSelectCategory">Wybierz kategorię</string>
+    <string name="tvSelectPeriod">Wybierz okres czasu</string>
+    <string name="tvAddedData">Data dodania: </string>
+    <!-- radio button strings  -->
+    <!-- Category of costs -->
+    <string name="rbCharges">Opłaty</string>
+    <string name="rbShopping">Zakupy</string>
+    <string name="rbPleasures">Przyjemności</string>
+    <string name="rbHobby">Hobby</string>
+    <!-- Period of costs -->
+    <string name="rbMonthly">Miesięczny</string>
+    <string name="rbQuarterly">Kwartalny</string>
+    <string name="rbAnnual">Roczny</string>
+    <!-- First_data_dialog_layout  -->
 
+    <string name="hintEtName">Twoje imię</string>
+    <string name="hintEtIncome">Twój miesięczny dochód (PLN)</string>
+    <string name="hintEtSavings">Miesięczna kwota oszczędności (PLN)</string>
+    <!-- menu_details  -->
+    <string name="btnAddCost">Dodaj koszt</string>
+    <string name="tttAddCost">Ten przycisk dodaje nowy koszt do listy kosztów w twoim budżecie</string>
+    <!-- add_cost_data_dialog_layout  -->
+    <string name="hintEtCostName">Nazwa kosztu</string>
+    <string name="hintEtCostAmount">Kwota kosztu</string>
     <!-- MainActivity              -->
-    <string name="firstTitleDialog">Type following data</string>
-    <string name="tvName">Name:</string>
-    <string name="tvIncome">Monthly income:</string>
-    <string name="tvSavings">Predicted monthly savings:</string>
-    <string name="btnShowUserDataDialog">Show User Data</string>
-        <!-- MainActivity Dialog Errors/Toast   -->
-        <string name="errorEmptyName">You have to enter your name</string>
-        <string name="errorEmptyIncome">You have to enter your income</string>
-        <string name="errorIncomeEqualZero">Your income have to be greater than zero</string>
-        <string name="errorEmptySavings">You have to enter your monthly amount of savings</string>
-        <string name="errorSavingsEqualZero">Your monthly amount of savings have to be greater than zero</string>
-        <string name="toastSavingsLessThanIncome">Attention! Your income have to be greater than savings.</string>
+    <string name="firstTitleDialog">Podaj następujące dane</string>
+    <string name="tvName">Imię:</string>
+    <string name="tvIncome">Miesięczny dochód:</string>
+    <string name="tvSavings">Przewidywane miesięczne oszczędności:</string>
+    <string name="btnShowUserDataDialog">Pokaż dane użytkownika</string>
+    <string name="titleWarningDeleteCost">Usuwanie kosztu</string>
+    <string name="msgWarningDeleteCost">Chcesz usunąć ten koszt?</string>
+    <string name="tvPercentValue">Wartość (%)</string>
+    <string name="tvUnusedBudget">Niewykorzystany budżet</string>
+    <string name="tvGenerally">Ogólnie</string>
+    <string name="tvCharges">Opłaty</string>
+    <string name="tvShopping">Zakupy</string>
+    <string name="tvPleasures">Przyjemności</string>
+    <string name="tvHobby">Hobby</string>
 
+    <!-- MainActivity Errors (information user by toast with error message)   -->
+    <string name="toastEmptyName">Musisz podać swoje imię</string>
+    <string name="toastEmptyIncome">Musisz podać swój dochód</string>
+    <string name="toastIncomeEqualZero">Twój dochód musi być większy od zera</string>
+    <string name="toastEmptySavings">Musisz podać swoją miesięczną kwotę oszczędności</string>
+    <string name="toastSavingsEqualZero">Twoja miesięczna kwota oszczędności musi być większa od zera</string>
+    <string name="toastSavingsLessThanIncome">Uwaga! Twój dochód musi być większy od oszczędności.</string>
+    <!-- add cost dialog Errors/Toasts -->
+    <string name="toastEmptyCostName">Musisz pod nazwę kosztu</string>
+    <string name="toastEmptyCostAmount">Musisz podać kwotę kosztu</string>
+
+    <string name="toastEmptyMonth">Brak dodanych kosztów dla tego miesiąca</string>
 
 
 </resources>
