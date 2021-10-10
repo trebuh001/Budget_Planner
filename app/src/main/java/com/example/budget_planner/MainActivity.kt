@@ -472,21 +472,12 @@ class MainActivity : AppCompatActivity(), Adapter.OnItemClickListener {
                 }
             }
             setNegativeButton(getString(R.string.cancel)) { _, _ ->
-                finish()
-                startActivity(intent)
             }
             setView(dialogLayout)
             show()
         }
     }
-    //below function means: refresh activity if back button was pressed
-    // (in result going to "current month")
-    override fun onBackPressed() {
-        super.onBackPressed()
-        finish()
-        startActivity(intent)
 
-    }
 }
 // below function is for round float (this was need to round to two places)
 fun Float.roundToDecimals(decimals: Int): Float {
