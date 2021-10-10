@@ -464,6 +464,7 @@ class MainActivity : AppCompatActivity(), Adapter.OnItemClickListener {
                     val date = bindingAddCostDataDialogLayoutBinding.tvAddedDate.text.toString()
                     val cost = Cost(name, category, period, amount, date)
                     viewModel.insertCost(cost)
+                    handleRecyclerView(binding)
 
                 } else {
                     finish()

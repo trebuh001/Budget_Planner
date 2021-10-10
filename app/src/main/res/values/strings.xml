@@ -21,6 +21,7 @@
     <string name="period">Okres</string>
     <string name="amount">Kwota (PLN)</string>
     <string name="date">Data dodania</string>
+    <string name="tvParticipation">Udział</string>
     <string name="tapToDelete">stuknij aby usunąć</string>
     <string name="previousMonth">Poprzedni miesiąc</string>
     <string name="nextMonth">Następny miesiąc</string>
